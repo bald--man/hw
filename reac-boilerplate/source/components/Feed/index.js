@@ -15,7 +15,7 @@ export default class Feed extends Component {
         posts: [
             { id: '1', comment: 'Hi there!', created: 1526825076849 },
             { id: '2', comment: 'Lets go!', created: 1728825076855 },
-            { id: '3', comment: 'Fuck you!', created: 1936825076949 }
+            { id: '3', comment: 'Go!', created: 1936825076949 }
         ],
         isSpinning: null,
     };
