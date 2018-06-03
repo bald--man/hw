@@ -1,3 +1,5 @@
+import { duration } from "moment";
+
 export const sum = (operand1, operand2) => {
     if (typeof operand1 !== "number") {
         throw new Error("Operand 1 should be a number.");
@@ -7,6 +9,12 @@ export const sum = (operand1, operand2) => {
 
     return operand1 + operand2;
 };
+
+export const delay = (duration = 1000) => {
+    return new Promise((resolve) => {
+        setTimeout(resolve, duration);
+    });
+}
 
 export const getUniqueID = (length = 15) => {
     if (typeof length !== "number") {
