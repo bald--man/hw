@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+
+    & h1 {
+        color: #000000;
+        font-size: 32px;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    & input {
+        /*background-image: url(svg/search-icon.svg);
+        background-position: 95% 50%;
+        background-repeat: no-repeat;
+        background-size: 18px 18px;*/
+        height: 42px!important;
+        width: 215px;
+    }
+}
